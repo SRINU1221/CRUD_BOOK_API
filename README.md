@@ -101,11 +101,13 @@ FOR TESTING I USED POSTMAN:
  API ENDPOINTS :
 
 1. GET /booksAPI/books
+   
 Fetch all books.
 ![image](https://github.com/user-attachments/assets/432b043d-b9da-4619-a8e2-23529e167714)
 
 
-2. GET /booksAPI/books/:id
+3. GET /booksAPI/books/:id
+   
 Fetch a book by its ID.
 Parameters: id (book ID)
 Response: A single book object in JSON format.
@@ -114,17 +116,20 @@ Response: A single book object in JSON format.
 
 
 3. POST /booksAPI/books
+   
 Add a new book.
 ![image](https://github.com/user-attachments/assets/a4e9bcf5-cab3-4245-988e-6119c7765684)
 
 
-4. PUT /booksAPI/books/:id
+5. PUT /booksAPI/books/:id
+   
 Update an existing book by its ID.
 Parameters: id (book ID)
 ![image](https://github.com/user-attachments/assets/ada11e28-0fb2-4c3f-a312-9f9baf9d82c3)
 
 
-5. DELETE /booksAPI/books/:id
+7. DELETE /booksAPI/books/:id
+   
 Delete a book by its ID.
 Parameters: id (book ID)
 Response: A success message.
